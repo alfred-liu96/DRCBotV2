@@ -36,7 +36,6 @@
 
 enum debug_level_t debug_level = DEBUG_ERROR;
 
-#if 0
 int main(int argc, char ** argv)
 {
 	// for color match
@@ -192,4 +191,3 @@ int main(int argc, char ** argv)
 		return 255;
 	return 0;
 }
-#endif
